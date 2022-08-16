@@ -8,7 +8,7 @@ function myBirthYearFunc(EntradaAñoNacimiento){
         console.log("Nací en " + EntradaAñoNacimiento);
     }
     var EntradaAñoNacimiento= 1980;
-    //el console.log imprime: Nací en 1980
+    //el console.log imprime:Nací en 1980
 
 
     function add(num1, num2){
