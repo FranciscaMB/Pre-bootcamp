@@ -22,3 +22,4 @@ function myBirthYearFunc(EntradaAñoNacimiento){
         //el console.log imprime: num1 is: 10
     //el console.log imprime: num2 is: 20
     //el console.log imprime: 30
+    jkljl
