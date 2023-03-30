@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VideoLab</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- top navigation -->
+    <div class="top">
+        <div class="nav-container">
+            <h1>VideoLab</h1>
+            <input type="text" placeholder="Search" name="query" class="search">
+            <button class="btn">Login</button>
+        </div>
+    </div>
+
+    <!-- main content -->
+    <div class="flex-container">
+
+        <!-- left column -->
+        <div class="col-l">
+
+            <video src="pexels-pavel-danilyuk-9121382.mp4" controls height="400" muted loop onmouseover="playVideo(this)" onmouseout="pauseVideo(this)"></video>
+
+           
+            <div class="row">
+                <div class="start">
+                    <h1>Playa</h1>
+                    <h3>1.8K Views | May, 18, 2020</h3>
+                    <div class="user">
+                        <img src="35008140-usuario-icono-plana-moderna.webp" alt="user-circle" class="avatar-s">
+                        <span class="user-name">FMONTECINO</span>
+                    </div>
+                </div>
+                <button class="btn">Subscribe</button>
+            </div>
+
+        </div>
+
+        <!-- right column -->
+        <div class="col-r">
+
+            <h3 class="sub-header">Up Next</h3>
+
+            <div class="video-small">
+                <video src="a65c4832.mp4"  height="100"  width="100" controls muted loop onmousemove="playVideo(this)"onmousemove="pauseVideo(this)"></video>
+                <span class="video-title">mountains</span>
+            </div>
+
+            <div class="video-small">
+                <video src="pexels-koolshooters-6975806.mp4"  height="100"  width="100" controls muted loop onmousemove="playVideo(this)"onmousemove="pauseVideo(this)"></video>
+                <span class="video-title">Beaches</span>
+            </div>
+
+            <div class="video-small">
+                <video src="pexels-cup-of-couple-7301691.mp4"  height="100"  width="100" controls muted loop onmousemove="playVideo(this)"onmousemove="pauseVideo(this)"></video>
+                <span class="video-title">black and white</span>
+            </div>
+
+            <div class="video-small">
+                <video src="pexels-pavel-danilyuk-9121382.mp4"  height="100"  width="100" controls muted loop onmousemove="playVideo(this)"onmousemove="pauseVideo(this)"></video>
+                <span class="video-title">Beaches</span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
